@@ -15,9 +15,9 @@ Closely related to the IV value, WOE measures the strength of each grouped attri
 #### Algorithm
 Formulae for calculating Information Value (IV) and Weight of Evidence (WOE): 
 
-___Weight of Evidence = Ln(Distribution Good/Distribution Bad)*100___ 
+    Weight of Evidence = Ln(Distribution Good/Distribution Bad)*100 
 
-___Information Value = sum((Distribution Good - Distribution Bad)*Ln(Distribution Good/Distribution Bad)___
+    Information Value = sum((Distribution Good - Distribution Bad)*Ln(Distribution Good/Distribution Bad)
 
 where Distribute Good refers to percentage of values, for each given independent variable grouping, that results in the desired "Value to Predict" for the dependent variable and Distribution Bad is the percentage of values within each grouping that is not the "Value to Predict"
 
